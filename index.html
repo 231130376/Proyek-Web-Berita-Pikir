@@ -1,10 +1,474 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700&display=swap"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="home-page">
+      <div class="frame-parent">
+        <div class="mdithinking-parent">
+          <img
+            class="mdithinking-icon"
+            loading="lazy"
+            alt=""
+            src="./public/mdithinking.svg"
+          />
+
+          <a class="pikir">Pikir</a>
+        </div>
+        <div class="navbar">
+          <header class="home-buttons-parent">
+            <div class="home-buttons">
+              <img
+                class="material-symbolsmenu-icon"
+                loading="lazy"
+                alt=""
+                src="./public/materialsymbolsmenu.svg"
+              />
+            </div>
+            <div class="search-bar-wrapper">
+              <div class="search-bar">
+                <div class="search-input"></div>
+                <img
+                  class="material-symbolssearch-icon"
+                  alt=""
+                  src="./public/materialsymbolssearch.svg"
+                />
+
+                <div class="search-placeholder">
+                  <div class="ketiklah-berita-yang">
+                    Ketiklah berita yang ingin dicari
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="google_translate_element"></div>
+            <script
+              src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+              defer
+            ></script>
+            <img
+              class="fa6-solidcloud-sun-icon"
+              loading="lazy"
+              alt=""
+              src="./public/fa6solidcloudsun.svg"
+              id="fa6SolidcloudSun"
+            />
+
+            <div class="login-button-wrapper">
+              <div class="login-button">
+                <div
+                  class="tombol-loginregister"
+                  id="tombolLoginRegister"
+                ></div>
+                <a class="loginregister" id="loginregister">Login/Register</a>
+              </div>
+            </div>
+          </header>
+          <div class="frame-group">
+            <div class="tombol-home-parent">
+              <div class="tombol-home">
+                <a class="home">Home</a>
+              </div>
+              <div class="tombol-hoax">
+                <a class="hoax">Hoax</a>
+              </div>
+              <div class="tombol-bencana">
+                <a class="bencana">Bencana</a>
+              </div>
+              <div class="tombol-konflik">
+                <a class="konflik">Konflik</a>
+              </div>
+              <div class="tombol-hiburan">
+                <a class="konflik1">Hiburan</a>
+              </div>
+              <div class="tombol-selebritis">
+                <a class="selebritis">Selebritis</a>
+              </div>
+              <div class="tombol-game">
+                <a class="game">Game</a>
+              </div>
+              <div class="tombol-ekonomi">
+                <a class="ekonomi">Ekonomi</a>
+              </div>
+              <div class="tombol-positif">
+                <a class="positif">Positif</a>
+              </div>
+            </div>
+            <div class="tombol-teknologi-parent">
+              <div class="tombol-teknologi">
+                <a class="teknologi">Teknologi</a>
+              </div>
+              <div class="tombol-olahraga">
+                <a class="olahraga">Olahraga</a>
+              </div>
+              <div class="tombol-trending">
+                <a class="trending">Trending</a>
+              </div>
+              <div class="tombol-gaya-hidup">
+                <a class="gaya-hidup">Gaya Hidup</a>
+              </div>
+              <div class="tombol-psikologis">
+                <a class="psikologis">Psikologis</a>
+              </div>
+              <div class="tombol-kesehatan">
+                <a class="kesehatan">Kesehatan</a>
+              </div>
+              <div class="tombol-keamanan">
+                <a class="keamanan">Keamanan</a>
+              </div>
+              <div class="tombol-politik">
+                <a class="politik">Politik</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="content">
+        <div class="sales-person-input">
+          <img
+            class="iklan-1-icon"
+            loading="lazy"
+            alt=""
+            src="./public/iklan-1@2x.png"
+          />
+        </div>
+        <section class="top-news-parent">
+          <div class="top-news">
+            <div class="frame-container">
+              <div class="banner-berita-auto-1-parent">
+                <img
+                  class="banner-berita-auto-1"
+                  alt=""
+                  src="./public/banner-berita-auto-1@2x.png"
+                />
+
+                <h3 class="politik-kenaikan-bbm-container">
+                  <p class="politik1">Politik</p>
+                  <p class="kenaikan-bbm-2024">Kenaikan BBM 2024 Ricuh</p>
+                </h3>
+              </div>
+              <div class="banner-berita-auto-2-parent">
+                <img
+                  class="banner-berita-auto-2"
+                  alt=""
+                  src="./public/banner-berita-auto-2@2x.png"
+                />
+
+                <div class="makiarrow-right-wrapper">
+                  <img
+                    class="makiarrow-right-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/makiarrow-right.svg"
+                    id="makiarrowRightIcon"
+                  />
+                </div>
+                <h3 class="bencana-kota-solo-container">
+                  <p class="bencana1">Bencana</p>
+                  <p class="kota-solo-alami">Kota Solo Alami Banjir Bandang</p>
+                </h3>
+              </div>
+              <div class="auto-news">
+                <div class="auto-news-content">
+                  <img
+                    class="iklan-2-icon"
+                    alt=""
+                    src="./public/iklan-2@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="production-delivery-input">
+              <div class="celebrity-news-content">
+                <div class="celebrity-news-title">
+                  <div class="rectangle-parent">
+                    <div class="frame-child"></div>
+                    <i class="selebritis-teuku-container">
+                      <span class="selebritis1">
+                        <br /><br />
+                        <span>SELEBRITIS |</span>
+                      </span>
+                      <span class="teuku-rassya-tegaskan-hubungan">
+                        <span class="span"> </span>
+                        <span
+                          >Teuku Rassya Tegaskan hubungan dengan Tamara
+                          Bleszynski baik dan tak ribut</span
+                        >
+                      </span>
+                    </i>
+                  </div>
+                  <div class="search-fields">
+                    <i class="teuku-rassya-memberikan-container">
+                      <p class="teuku-rassya-memberikan">
+                        Teuku Rassya memberikan penegasan soal hubungan dengan
+                        ibundanya, Tamara Bleszynski. Dalam Instagram Stories
+                        miliknya pria yang memutuskan terjun ke dunia politik
+                        itu menjelaskan tidak ada masalah dengan Tamara
+                        Bleszynski.
+                      </p>
+                      <p class="seharian-pada-ngirim">
+                        "Seharian pada ngirim berita pas nanya mama: hah apaan
+                        sih mama kan nggak nulis tentang Rasya," tulis Teuku
+                        Rassya.....
+                      </p>
+                    </i>
+                  </div>
+                </div>
+                <div class="economy-news">
+                  <div class="economy-news-content">
+                    <div class="economy-news-content-child"></div>
+                    <i class="ekonomi-ada-container">
+                      <span class="ekonomi1">
+                        <span>EKONOMI | </span>
+                      </span>
+                      <span class="ada-kereta-cepat-whoosh-kawas">
+                        <span class="span1"> </span>
+                        <span
+                          >Ada Kereta Cepat Whoosh, Kawasan Ini Cocok jadi
+                          Tujuan Investasi Properti</span
+                        >
+                      </span>
+                    </i>
+                  </div>
+                  <div class="kawasan-bandung-raya-tercatat-wrapper">
+                    <i class="kawasan-bandung-raya"
+                      >Kawasan Bandung Raya tercatat sebagai daerah dengan
+                      pertumbuhan tercepat untuk popularitas bulanan sektor
+                      perumahan. Flash Report Rumah123 Edisi januari 2024
+                      melaporkan, pertumbuhan popularitas Bandung mencapai satu
+                      persen. Disusul Bekasi (0,5 persen), Depok (0,4 persen)
+                      dan Jakarta Timur (0,3 persen). Permintaan hunian jual dan
+                      sewa di Bandung....</i
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-name-input">
+            <div class="trending-content">
+              <h1 class="trending1">Trending</h1>
+              <div class="trending-news">
+                <div class="trending-news-item">
+                  <img
+                    class="trending-news-image"
+                    loading="lazy"
+                    alt=""
+                    src="./public/rectangle-1@2x.png"
+                  />
+
+                  <div class="trending-news-content">
+                    <div class="trending-news-content-child"></div>
+                    <h1 class="tim-renang-indonesia">
+                      Tim Renang Indonesia Berhasil Memenangkan 3 Medali Emas Di
+                      Sea Games 2023
+                    </h1>
+                    <div class="trending-news-date">
+                      <div class="april-2023">24 April 2023</div>
+                      <div class="pikir-teams">Pikir Teams</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="perenang-lorem-ipsum-container">
+                  <span>Perenang, </span>
+                  <span class="lorem-ipsum-dolor"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime, totam!</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="tempat-iklan-1"></div>
+      <div class="sales-person-shape">
+        <div class="latest-news-content">
+          <div class="latest-news-header">
+            <h1 class="berita-terbaru">Berita Terbaru</h1>
+            <div class="latest-news-items">
+              <div class="search-order-number">
+                <img
+                  class="image-trio-icon"
+                  alt=""
+                  src="./public/image-trio@2x.png"
+                />
+
+                <h3 class="judul-berita-lorem">
+                  Judul Berita Lorem Ipsum Dolor
+                </h3>
+                <div class="timestamp-trio">
+                  <div class="menit-lalu">5 Menit Lalu</div>
+                  <div class="pikir-teams1">Pikir Teams</div>
+                </div>
+              </div>
+              <div class="delivery-date-input">
+                <img
+                  class="news-image-icon"
+                  alt=""
+                  src="./public/news-image@2x.png"
+                />
+
+                <h3 class="judul-berita-lorem1">
+                  Judul Berita Lorem Ipsum Dolor
+                </h3>
+                <div class="news-meta">
+                  <div class="menit-lalu1">23 Menit Lalu</div>
+                  <div class="pikir-teams2">Pikir Teams</div>
+                </div>
+              </div>
+              <div class="rectangle-group">
+                <img
+                  class="frame-item"
+                  alt=""
+                  src="./public/rectangle-5@2x.png"
+                />
+
+                <h3 class="judul-berita-lorem2">
+                  Judul Berita Lorem Ipsum Dolor
+                </h3>
+                <div class="jam-lalu-parent">
+                  <div class="jam-lalu">1 Jam Lalu</div>
+                  <div class="pikir-teams3">Pikir Teams</div>
+                </div>
+              </div>
+              <div class="latest-news-item">
+                <img
+                  class="latest-news-item-child"
+                  alt=""
+                  src="./public/rectangle-6@2x.png"
+                />
+
+                <h3 class="judul-berita-lorem3">
+                  Judul Berita Lorem Ipsum Dolor
+                </h3>
+                <div class="jam-lalu-group">
+                  <div class="jam-lalu1">1 Jam Lalu</div>
+                  <div class="pikir-teams4">Pikir Teams</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-list">
+            <div class="news-pair">
+              <img
+                class="double-image-icon"
+                alt=""
+                src="./public/double-image@2x.png"
+              />
+
+              <h3 class="judul-berita-lorem4">
+                Judul Berita Lorem Ipsum Dolor
+              </h3>
+              <div class="sales-person-container">
+                <div class="jam-lalu2">2 Jam Lalu</div>
+                <div class="pikir-teams5">Pikir Teams</div>
+              </div>
+            </div>
+            <div class="single-image-parent">
+              <img
+                class="single-image-icon"
+                alt=""
+                src="./public/single-image@2x.png"
+              />
+
+              <h3 class="judul-berita-lorem5">
+                Judul Berita Lorem Ipsum Dolor
+              </h3>
+              <div class="single-meta">
+                <div class="jam-lalu3">2 Jam Lalu</div>
+                <div class="pikir-teams6">Pikir Teams</div>
+              </div>
+            </div>
+            <div class="checkbox-pair">
+              <img
+                class="split-image-icon"
+                alt=""
+                src="./public/split-image@2x.png"
+              />
+
+              <h3 class="judul-berita-lorem6">
+                Judul Berita Lorem Ipsum Dolor
+              </h3>
+              <div class="split-meta">
+                <div class="jam-lalu4">2 Jam Lalu</div>
+                <div class="pikir-teams7">Pikir Teams</div>
+              </div>
+            </div>
+            <div class="checkbox-pair1">
+              <img
+                class="checkbox-pair-child"
+                alt=""
+                src="./public/rectangle-10@2x.png"
+              />
+
+              <h3 class="judul-berita-lorem7">
+                Judul Berita Lorem Ipsum Dolor
+              </h3>
+              <div class="jam-lalu-container">
+                <div class="jam-lalu5">3 Jam Lalu</div>
+                <div class="pikir-teams8">Pikir Teams</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tempat-iklan-2"></div>
+      <footer class="footer">
+        <div class="footer-child"></div>
+        <b class="copyright-2024-pikir">Copyright 2024 Pikir</b>
+      </footer>
+    </div>
+
+    <script>
+      var tombolLoginRegister = document.getElementById("tombolLoginRegister");
+      if (tombolLoginRegister) {
+        tombolLoginRegister.addEventListener("click", function (e) {
+          window.location.href = "./Login.html";
+        });
+      }
+
+      var loginregister = document.getElementById("loginregister");
+      if (loginregister) {
+        loginregister.addEventListener("click", function (e) {
+          window.location.href = "./Login.html";
+        });
+      }
+
+      var makiarrowRightIcon = document.getElementById("makiarrowRightIcon");
+      if (makiarrowRightIcon) {
+        makiarrowRightIcon.addEventListener("click", function (e) {
+          window.location.href = "./HomePageSlide.html";
+        });
+      }
+
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "id" },
+          "google_translate_element"
+        );
+      }
+    </script>
+  </body>
 </html>
