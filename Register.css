@@ -1,0 +1,442 @@
+.material-symbolsarrow-back-icon {
+    height: 72px;
+    width: 72px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .authentication-child {
+    width: 960px;
+    height: 821px;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .buat-akun {
+    margin: 0;
+    width: 469px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .email-input {
+    width: 775px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .email {
+    flex: 1;
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .register-header {
+    width: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .email-username-inputs-child {
+    height: 63px;
+    width: 786px;
+    position: relative;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .ketikkan-email {
+    width: 786px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 19px;
+    position: relative;
+    color: var(--color-dimgray);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+  }
+  .email-username-inputs,
+  .password-field {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .email-username-inputs {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    flex-direction: row;
+    padding: var(--padding-3xl) var(--padding-2xs) var(--padding-lgi);
+    z-index: 1;
+  }
+  .password-field {
+    flex-direction: column;
+    padding: 0 0 var(--padding-5xs);
+    gap: var(--gap-5xs);
+  }
+  .username {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 80px;
+    z-index: 1;
+  }
+  .submission {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2px;
+  }
+  .frame-child {
+    height: 63px;
+    width: 786px;
+    position: relative;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .ketikkan-username {
+    width: 786px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 19px;
+    position: relative;
+    color: var(--color-dimgray);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+  }
+  .password-field1,
+  .rectangle-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-parent {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xl) var(--padding-2xs) var(--padding-lgi);
+    z-index: 1;
+    color: var(--color-dimgray);
+  }
+  .password-field1 {
+    flex-direction: column;
+    gap: var(--gap-5xs);
+  }
+  .password {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 76px;
+    z-index: 1;
+  }
+  .password-inputs-child {
+    height: 63px;
+    width: 786px;
+    position: relative;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .ketikkan-password {
+    width: 786px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 19px;
+    position: relative;
+    color: var(--color-dimgray);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+  }
+  .password-inputs {
+    align-self: stretch;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xl) var(--padding-3xs) var(--padding-lgi);
+    z-index: 1;
+  }
+  .content,
+  .password-inputs,
+  .password-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .password-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-4xs);
+  }
+  .content {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 var(--padding-5xs) var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .konfirmasi-password {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .register-button-child {
+    height: 63px;
+    width: 786px;
+    position: relative;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .ketik-ulang-password {
+    width: 786px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    height: 19px;
+    position: relative;
+    color: var(--color-dimgray);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 2;
+  }
+  .konfirmasi-password-parent,
+  .register-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .register-button {
+    align-self: stretch;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-3xl) var(--padding-3xs) var(--padding-lgi);
+    z-index: 1;
+    color: var(--color-dimgray);
+  }
+  .konfirmasi-password-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-4xs);
+  }
+  .email-input-parent,
+  .password-field-parent,
+  .password-field2 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .password-field2 {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .email-input-parent,
+  .password-field-parent {
+    flex-direction: column;
+  }
+  .password-field-parent {
+    gap: 12px;
+    text-align: left;
+    font-size: var(--font-size-base);
+  }
+  .email-input-parent {
+    gap: 29px;
+  }
+  .register-button-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-goldenrod);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .register1 {
+    position: absolute;
+    top: 23px;
+    left: 210px;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 114px;
+    height: 30px;
+    z-index: 2;
+  }
+  .register-background {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 75px;
+    width: 508px;
+    position: relative;
+    max-width: 100%;
+  }
+  .register-button1 {
+    width: 752px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .authentication {
+    align-self: stretch;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 51px var(--padding-67xl) 102px;
+    gap: 92px;
+    max-width: 100%;
+  }
+  .authentication,
+  .authentication-wrapper,
+  .register {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .authentication-wrapper {
+    width: 960px;
+    flex-direction: column;
+    padding: 63px 0 0;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .register {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-sandybrown);
+    overflow: hidden;
+    flex-direction: row;
+    padding: 25px var(--padding-71xl) 115px;
+    gap: var(--gap-65xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1225px) {
+    .register {
+      flex-wrap: wrap;
+      padding-left: var(--padding-26xl);
+      padding-right: var(--padding-26xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .authentication {
+      gap: 46px;
+      padding: 33px var(--padding-24xl) 66px;
+      box-sizing: border-box;
+    }
+    .authentication-wrapper {
+      padding-top: 41px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .buat-akun {
+      font-size: var(--font-size-19xl);
+    }
+    .authentication {
+      gap: 23px;
+      padding-left: var(--padding-2xl);
+      padding-right: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+    .register {
+      gap: var(--gap-23xl);
+      padding-left: var(--padding-3xl);
+      padding-right: var(--padding-3xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .buat-akun {
+      font-size: var(--font-size-10xl);
+    }
+    .register1 {
+      font-size: var(--font-size-lgi);
+    }
+    .authentication {
+      padding-top: var(--padding-2xl);
+      padding-bottom: var(--padding-24xl);
+      box-sizing: border-box;
+    }
+    .authentication-wrapper {
+      padding-top: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .register {
+      gap: var(--gap-2xl);
+    }
+  }
+  

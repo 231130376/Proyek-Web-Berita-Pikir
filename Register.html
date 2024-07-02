@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global2.css" />
+    <link rel="stylesheet" href="./Register.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register">
+      <img
+        class="material-symbolsarrow-back-icon"
+        loading="lazy"
+        alt=""
+        src="./public/materialsymbolsarrowback.svg" id="back"
+      />
+
+      <section class="authentication-wrapper">
+        <div class="authentication">
+          <div class="authentication-child"></div>
+          <div class="email-input-parent">
+            <div class="email-input">
+              <h1 class="buat-akun">Buat Akun</h1>
+            </div>
+            <div class="password-field-parent">
+              <div class="password-field">
+                <div class="register-header">
+                  <div class="email">Email</div>
+                </div>
+                <div class="email-username-inputs">
+                  <div class="email-username-inputs-child"></div>
+                  <form action="/KonfirmasiKodeEmail.html">
+                  <input
+                    class="ketikkan-email"
+                    placeholder="Ketikkan email"
+                    type="text" maxlength="40" required
+                  />
+                </div>
+              </div>
+              <div class="password-field1">
+                <div class="submission">
+                  <div class="username">Username</div>
+                </div>
+                <div class="rectangle-parent">
+                  <div class="frame-child"></div>
+                  <input
+                    class="ketikkan-username"
+                    placeholder="Ketikkan username"
+                    type="text" maxlength="24" required
+                  />
+                </div>
+              </div>
+              <div class="content">
+                <div class="password-parent">
+                  <div class="password">Password</div>
+                  <div class="password-inputs">
+                    <div class="password-inputs-child"></div>
+                    <input
+                      class="ketikkan-password"
+                      placeholder="Ketikkan password"
+                      type="password" maxlength="32" required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="password-field2">
+                <div class="konfirmasi-password-parent">
+                  <div class="konfirmasi-password">Konfirmasi Password</div>
+                  <div class="register-button">
+                    <div class="register-button-child"></div>
+                    <input
+                      class="ketik-ulang-password"
+                      placeholder="Ketik ulang password"
+                      type="password" maxlength="32" required
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="register-button1">
+            <button class="register-background">
+              <div
+                class="register-button-background"
+                id="registerButtonBackground"
+              ></div>
+              <div class="register1">Register</div>
+            </button>
+          </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var back = document.getElementById("back");
+      if (back) {
+        back.addEventListener("click", function (e) {
+            window.location.href = "./Login.html";
+        });
+      }
+    </script>
+  </body>
+</html>
