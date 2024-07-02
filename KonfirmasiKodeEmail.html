@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global2.css" />
+    <link rel="stylesheet" href="./KonfirmasiKodeEmail.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="konfirmasi-kode-email">
+      <img
+        class="material-symbolsarrow-back-icon1"
+        loading="lazy"
+        alt=""
+        src="./public/materialsymbolsarrowback.svg"
+        id="back"
+      />
+
+      <div class="content-container">
+        <div class="confirmation-title-container">
+          <div class="confirmation-title-container-child"></div>
+          <div class="confirmation-button-container">
+            <h1 class="konfirmasi-email">Konfirmasi Email</h1>
+          </div>
+          <div class="code-input-container">
+            <div class="code-entry">
+              <div class="masukkan-kode">Masukkan Kode</div>
+            </div>
+            <div class="confirmation-button-wrapper">
+              <div class="confirmation-button-wrapper-child"></div>
+              <form action="/Login.html">
+              <input
+                class="ketikkan-kode-yang"
+                placeholder="Ketikkan kode yang dikirim ke email anda"
+                type="text"
+                maxlength="6"
+                required
+              />
+            </div>
+            <div class="email-title-container">
+              <b class="kirim-kode">Kirim Kode</b>
+            </div>
+          </div>
+          <div class="confirmation-container">
+            <button class="confirmation-button-wrapper1">
+              <div class="button-background"></div>
+              <div class="confirm">Confirm</div>
+            </button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      var back = document.getElementById("back");
+      if (back) {
+        back.addEventListener("click", function (e) {
+          window.location.href = "./Register.html";
+        });
+      }
+    </script>
+  </body>
+</html>
